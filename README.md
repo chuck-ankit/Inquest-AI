@@ -33,5 +33,12 @@ To run InquestAI, you will need:
 - aiofiles
 - Jinja2
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Links
+GitHub Repository: https://github.com/chuck-ankit/Inquest-AI-.git
+Live Application: [InquestAI Deployment](https://inquest-ai.onrender.com)
+
 You can install the required dependencies using pip. Create a `requirements.txt` file with the following content:
 
