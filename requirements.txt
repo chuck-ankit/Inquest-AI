@@ -1,6 +1,6 @@
 langchain
 langchain-community
-langchain-core  
+langchain-core
 openai
 pypdf
 tiktoken
