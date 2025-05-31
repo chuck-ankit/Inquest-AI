@@ -1,0 +1,21 @@
+{
+  "name": "inquest-ai",
+  "version": "1.0.0",
+  "description": "AI-powered PDF question generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "pdf.js": "^0.1.0",
+    "sweetalert2": "^11.10.1",
+    "vite": "^5.0.10"
+  },
+  "author": "Ankit Kumar",
+  "license": "MIT"
+}
