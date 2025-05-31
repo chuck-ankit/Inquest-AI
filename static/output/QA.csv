@@ -1,31 +1,43 @@
 Question,Answer
-1. What is the correlation matrix used for in the context of multi-variable data sets?,The correlation matrix is used to describe the dependency between different data sets in the context of multi-variable data sets. It helps in understanding the relationships and dependencies between variables by summarizing the correlations among several variables.
-2. How is Principal Component Analysis (PCA) used to calculate eigenvalues and eigenvectors of the correlation matrix?,"Principal Component Analysis (PCA) is used to calculate eigenvalues and eigenvectors of the correlation matrix by first constructing the correlation matrix from the data set. The correlation matrix describes the dependency between different variables in the data set. 
+1. What is Ankit Kumar's educational background and when is he expected to graduate?,Ankit Kumar is pursuing a B.Tech in Computer Science at Galgotias University with a GPA of 8.3 out of 10. He is expected to graduate in July 2025.
+2. What are Ankit Kumar's key skills in frontend development?,"Ankit Kumar's key skills in frontend development include React.js, Tailwind CSS, HTML/CSS, and he also has some basics in Flutter."
+"3. Can you list some of the projects Ankit Kumar has worked on, including the technologies used in each project?","Sure! Ankit Kumar has worked on the following projects:
 
-Once the correlation matrix is constructed, PCA calculates the eigenvalues and eigenvectors of this matrix. The eigenvectors represent the principal directions of variance in the data set, while the eigenvalues represent the variance of these principal components. 
+1. PokeDexPro
+   - Technologies used: React.js, Tailwind CSS, Node.js, Pok´ eAPI
 
-By calculating the eigenvalues and eigenvectors of the correlation matrix, PCA helps in dimension reduction and identifying the most important patterns in the data set. This process allows for a more compact representation of the data and helps in understanding the underlying structure of the data."
-"3. What does a correlation of +1, -1, and values between -1 and 1 indicate in terms of the relationship between variables?","A correlation of +1 indicates a perfect positive linear relationship between variables, meaning they move in the same direction. A correlation of -1 indicates a perfect negative linear relationship, where the variables move in opposite directions. Values between -1 and 1 indicate the degree of linear dependence between variables. The closer the correlation is to either -1 or 1, the stronger the relationship between the variables. As the correlation approaches zero, there is less of a relationship, indicating that the variables are closer to being uncorrelated."
-4. How are eigenvalues and eigenvectors calculated for a data covariance matrix?,"Eigenvalues and eigenvectors of a data covariance matrix are calculated by solving the characteristic equation of the matrix. The characteristic equation is given by det(A - λI) = 0, where A is the matrix, λ is the eigenvalue, and I is the identity matrix. The solutions to this equation are the eigenvalues of the matrix. Once the eigenvalues are found, the corresponding eigenvectors can be calculated by solving the equation Ax = λx, where x is the eigenvector associated with the eigenvalue λ. The eigenvectors are the directions in which the covariance matrix is diagonal, representing the principal directions of variance in the data."
-"5. What are some limitations of Principal Component Analysis (PCA) according to Izenman, A.J. (2008)?","I don't have specific information on the limitations of Principal Component Analysis (PCA) according to Izenman, A.J. (2008)."
-6. How is dimension reduction achieved using PCA and the correlation matrix?,"Dimension reduction using PCA and the correlation matrix is achieved by identifying the principal components of a dataset. Here's how it works:
+2. ImageEnhancer
+   - Technologies used: React.js, Vite, Tailwind CSS, TensorFlow.js, Node.js
 
-1. **Correlation Matrix**: The correlation matrix describes the dependency between different variables in a dataset. It helps in understanding the relationships between variables. 
+3. EmployWise
+   - Technologies used: React, TypeScript, Redux Toolkit, Material-UI, React Router, Axios, Formik, Yup, Styled Components
 
-2. **Eigenvalues and Eigenvectors**: PCA involves calculating the eigenvalues and eigenvectors of the data covariance matrix. The eigenvalues represent the variance of the principal components, and the eigenvectors represent the directions of greatest variance in the data.
+4. WebCognize
+   - Technologies used: React.js, Vite, Tailwind CSS, Node.js, OpenAI API, Express.js
 
-3. **Principal Components**: The principal components are the new variables that capture the most important information in the dataset. These components are linear combinations of the original variables.
+These projects showcase Ankit's skills in frontend and backend technologies, AI integration, and full-stack development."
+4. What work experience does Ankit Kumar have in the field of machine learning?,"Ankit Kumar worked as a Machine Learning Intern at Bharat Intern from February 2024 to March 2024. During this internship, he developed predictive models and deployed them using Django REST APIs. Ankit applied preprocessing and statistical analysis on datasets to enhance model performance."
+5. What certifications does Ankit Kumar hold in the field of technology?,"Ankit Kumar holds the following certifications in the field of technology:
+1. AWS – Academy Cloud Foundations
+2. IBM – Big Data & Data Science Professional Certificate
+3. GeeksforGeeks – DSA with Project Bootcamp"
+6. What soft skills does Ankit Kumar possess according to the text?,"According to the text, Ankit Kumar possesses the following soft skills:
+- Agile
+- Communication
+- Teamwork
+- Critical Thinking"
+7. How did Ankit Kumar contribute to reducing page load times in his role as a Frontend Developer Intern at Zeepty?,Ankit Kumar contributed to reducing page load times in his role as a Frontend Developer Intern at Zeepty by improving component reusability.
+8. What technologies were used in the development of the PokeDexPro project?,"The PokeDexPro project was developed using the following technologies:
+- React.js
+- Tailwind CSS
+- Node.js
+- Pok´ eAPI"
+9. What is the purpose of the ImageEnhancer project and what technologies were used in its development?,"The purpose of the ImageEnhancer project is to create an AI-based web application that enhances photos in real-time. The project integrated advanced enhancement techniques, image preview, and upload/download features with a smooth user interface. 
 
-4. **Dimension Reduction**: By selecting the principal components with the highest variance (largest eigenvalues), we can reduce the dimensionality of the dataset. This means representing the data in a lower-dimensional space while retaining the most important information.
-
-5. **Projection**: The original data is then projected onto the new space defined by the principal components. This projection allows for a more compact representation of the data while minimizing information loss.
-
-In summary, PCA and the correlation matrix help in identifying the most important patterns in the data, allowing for dimension reduction by selecting the principal components that capture the most variance in the dataset."
-7. How is the cumulative eigenvalue curve interpreted in the context of PCA?,"The cumulative eigenvalue curve in the context of Principal Component Analysis (PCA) is used to determine the amount of variance that each principal component contributes to the overall variance of the data set. The curve shows the cumulative sum of the eigenvalues in descending order. 
-
-Interpreting the cumulative eigenvalue curve involves looking at the point where the curve starts to level off. This point indicates the number of principal components needed to capture a significant amount of variance in the data set. Typically, analysts choose to retain principal components that contribute to a significant portion of the total variance, and the cumulative eigenvalue curve helps in deciding how many principal components to retain for further analysis. 
-
-In PCA, the cumulative eigenvalue curve is a useful tool for dimensionality reduction by selecting the most important principal components that explain the majority of the variance in the data set."
-8. How can the reordering of variables based on their correlations provide insight into the relationships between variables?,"Reordering variables based on their correlations can provide insight into the relationships between variables by highlighting the strength and direction of the relationships. In the context of eigenvalues and eigenvectors, reordering based on correlations can show which variables are positively or negatively correlated with each other. Strong positive correlations between variables indicate that they tend to increase or decrease together, while negative correlations suggest that as one variable increases, the other decreases. By examining the reordering of variables, you can identify which variables are more closely related and how they interact within the dataset."
-9. What are some future works mentioned in the text regarding numerical methods for calculating eigenvalues and eigenvectors?,"In the text, it is mentioned that future works will describe other numerical methods such as Multi-Dimensional Scaling (MDS) and Factorization for calculating eigenvalues and eigenvectors."
-10. How is the redundancy of variables reduced using the correlation matrix and PCA?,"The redundancy of variables can be reduced using the correlation matrix and Principal Component Analysis (PCA) by identifying the principal directions in which the data varies. PCA calculates the eigenvalues and eigenvectors of the data covariance matrix, which helps in finding the principal components of the data set. By transforming the data into a new coordinate system based on these principal components, the data becomes de-correlated, meaning that the covariance between variables is reduced. This reduction in redundancy allows for a more compact representation of the data, as well as a decrease in the dimensionality of the problem."
+Technologies used in the development of the ImageEnhancer project include:
+- React.js
+- Vite
+- Tailwind CSS
+- TensorFlow.js
+- Node.js"
+"10. How does the WebCognize project utilize OpenAI's language models, and what technologies were used in its development?","The WebCognize project utilizes OpenAI's language models to deliver structured and smart search responses. The project was developed with a sleek UI using Vite and Tailwind CSS for the frontend, and Node.js for the backend to handle queries and integrate with the OpenAI API. The stack used in the development of WebCognize includes React.js, Vite, Tailwind CSS, Node.js, OpenAI API, and Express.js."
